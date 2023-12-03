@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+}
+button{
+  color: white;
+  background-color: #393646;
+  border-radius: 50%;
+  padding: 10px 14px;
+  border: none;
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 25px;
+}
+.js-button-plus,
+.js-button-minus,
+.js-button-multiply,
+.js-button-divide{
+  background-color: orange;
+  color: white;
+}
+.js-button-clear{
+  /* width: 100px; */
+  border-radius: 90px;
+  display: inline;
+  align-items: right;
+  /* text-align: right; */
+  position: relative;
+  /* left: 110px; */
+}
+input{
+  padding: 10px;
+  width: 280px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+.pressed{
+  /*background-color: #635985;*/
+  opacity: 0.5;
+}
