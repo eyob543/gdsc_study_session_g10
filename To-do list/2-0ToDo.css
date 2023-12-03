@@ -1,0 +1,51 @@
+body{
+  font-family: sans-serif;
+  background-color: cadetblue;
+  /* margin: 0; */
+}
+main, .div{
+  display: grid;
+  grid-template-columns: 250px 150px 100px;
+  gap: 10px;
+  align-items: left; 
+  justify-content: center;
+}
+
+.div{
+  margin: 0;
+  margin-bottom: 15px;
+ /* align-self: center; */
+ margin-left: 259px;
+ /* margin-right: auto; */
+}
+.div > div{
+  font-size: large;
+}
+h1{
+  font-size: 100px;
+  text-align: center;
+}
+.add{
+  background-color: rgb(7, 7, 185);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+}
+.delete{
+  background-color: rgb(237, 15, 15);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+}
+.delete:hover{
+  cursor: pointer;
+}
+.input{
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+}
